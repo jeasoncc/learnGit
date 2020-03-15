@@ -1,0 +1,21 @@
+<nav class="flex items-center justify-between h-24 box-shadow shadow-2xl flex-wrap appbar p-6">
+    <div class="ml-auto flex items-center flex-shrink-0 text-white mr-6">
+        <mat-chip-list>
+            <button mat-button>Contact US</button>
+            {{title}}
+            <mat-chip color="primary" selected>Learn Git</mat-chip>
+            <mat-chip (click)=loginFn() color="warn" selected>Login In</mat-chip>
+        </mat-chip-list>
+    </div>
+</nav>
+<div class="contain h-screen w-full fixed " style="z-index:-10">
+
+</div>
+<div class="h-screen flex-col flex justify-center items-center z-20 bg-cover bg-no-repeat w-full "> 
+
+    <div class="container mx-auto px-2 md:px-8 xl:px-8">
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-12 rounded-full" id="grid-" type="text" placeholder="git init">
+        <p class="text-red-500 text-xs italic">Make it as long and as crazy as you'd like</p>
+    </div>
+</div>
+
